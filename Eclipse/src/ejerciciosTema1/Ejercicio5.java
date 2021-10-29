@@ -25,6 +25,7 @@ public class Ejercicio5 { public static void main(String[] args) {
 
     System.out.print("Escriba la cantidad recibida por su tercera venta: ");
     Double terceraVenta = sc.nextDouble();
+    sc.close();
 
     Double comisiones;
     Double salarioFinal;
